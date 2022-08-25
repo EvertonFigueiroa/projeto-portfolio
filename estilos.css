@@ -72,11 +72,12 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+    padding: 3px;
 }
 
 .card {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     margin: 3ren 0 0 0;
     display: flex;
@@ -142,8 +143,8 @@ a:hover {
 }
 
 .card:hover > .card-wrapper::before {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     opacity: 1;
 }
 
