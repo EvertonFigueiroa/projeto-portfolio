@@ -9,12 +9,12 @@ body {
 }
 
 .header-container {
-    height: 90vh;
-    width: 120vw;
+    height: 100vh;
+    width: 100%;
     background-color: #bfbfd6;
     background-image: url('imgs/naruto3.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@ h2 {
 
 a:hover {
     background-color: aliceblue;
+    text-decoration: none;
 }
 
 .container {
@@ -154,10 +155,26 @@ a:hover {
 
 .footer {
     width: 100%;
-    height: 100px;
-    background-color: #1e1e2a;
+    height: 50px;
+    background-color: #5b5b74;
+    background-image: url();
+    background-image: url();
+    background-image: url();
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: rgb(43, 41, 41);
+    
+}
+
+.headerp h1 {
+    font-size: 10pt;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(13, 14, 13);
+    display: flex; 
+}
+
+a {
+    text-decoration: none;
 }
