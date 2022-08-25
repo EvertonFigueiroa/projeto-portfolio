@@ -172,8 +172,9 @@ a:hover {
     font-size: 10pt;
     margin: 0;
     padding: 20px;
-    background-color: rgb(13, 14, 13);
+    background-color: rgb(7, 7, 7);
     display: flex; 
+    color: #ffffff;
 }
 
 a {
